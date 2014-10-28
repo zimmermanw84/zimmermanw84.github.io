@@ -9,7 +9,7 @@ while input != x
 	if input > 10
 		puts "I said between 1 and 10 dummy"
 	elsif input > x
-		puts "Wrong answer... To heavy!"
+		puts "Wrong answer... Too heavy!"
 	elsif input < x
 		puts "Close.. But no cigar.. Bring it up a bit"
 	end
