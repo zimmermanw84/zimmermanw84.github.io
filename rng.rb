@@ -18,7 +18,7 @@ end
 
 puts "You got it the answer is #{input} and you win nothing!"
 
-puts "Now pick between 11 and 20!"
+puts "Now pick between 11 and 20 please"
 input2 = gets.chomp.to_i
 
 y = (11..20).to_a.sample
