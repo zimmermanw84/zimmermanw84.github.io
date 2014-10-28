@@ -1,3 +1,5 @@
+#Welcome to the first game I ever wrote pre-Phase 0
+
 puts "Pick a number between 1 and 10"
 input = gets.chomp.to_i
 
