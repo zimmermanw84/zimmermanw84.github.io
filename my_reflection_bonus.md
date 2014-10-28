@@ -21,6 +21,6 @@ Explain how the internet displays your website after you push your changes.
 - Did you have an "aha" moments or were any concepts solidified?
 - Did you find any resources on your own that helped you better understand a topic? If so, please list it.
 
-The first thing I learned about web is thats it not the internet. Usually used synonymously, but the web is code built on top of the internet so we can communicate with it. Another thing I learned is that "Big Corrporation" can use .org domain names not just .com for commercial use.
+The first thing I learned about web is that it not the internet. Usually used synonymously, but the web is code built on top of the internet so we can communicate with it. Another thing I learned is that "Big Corrporation" can use .org domain names not just .com for commercial use.
 It felt pretty cool to have something that I made get "push"ed to the internet. It will feel a lot better when it's to a different domain or my own domain.
 The major "aha" momment was when I learned that the web isn't the internet and the internet is a wire in the ground(over simplified).. My head exploded.
