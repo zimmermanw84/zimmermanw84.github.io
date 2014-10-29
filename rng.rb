@@ -21,7 +21,7 @@ while input != x
 input = gets.chomp.to_i
 end
 
-puts "You got it the answer is #{input} and you win nothing!"
+puts "You got it the answer is #{input}... and you win nothing!"
 
 puts "Now pick between 11 and 20 please"
 input2 = gets.chomp.to_i
