@@ -1,25 +1,49 @@
-body {
+
+body  {
+  background-image: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/05/city-wallpapers-9-610x381.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+/*space backround*/
+
+/*body {
   background-image: url("http://i1382.photobucket.com/albums/ah251/zimmermanw/Hubble-Space-Wallpapers-01-300x225_zps23ad9976.jpg?1415160307645&1415160307885");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
 
-}
+}*/
 
 * {
-  font-family: Impact;
+  /*font-family: Impact;*/
 }
 
+/*Just my name*/
+
 #head {
-  font-family: Impact;
+
   font-size: 60px;
   text-decoration: underline;
   text-align: center;
   position:static;
   margin-top: 20px;
+  color: dimgrey;
+  text-shadow: 2px 2px rgb(253, 247, 248);
+  border: 3px solid dimgrey;
+  background-color: rgba(0,0,0,0.7);
+  width: 40%;
+  margin-left: 30%;
+
 
 }
+
+/*the bar it self*/
 
 .navbar {
   position: fixed;
@@ -32,6 +56,8 @@ body {
 
 }
 
+/*each button*/
+
 .navb {
   position: relative;
   margin-top: 10px;
@@ -42,23 +68,34 @@ body {
   text-shadow: 1px 1px #EEE;
 }
 
+/*all 4 pics need to break into own divs eventually*/
+
 #hpic {
   border:5px solid black;
   background-color: black;
 }
+
+/*footer*/
 
 #ft {
   text-align: center;
   font-size: 10px;
 }
 
+/*about me div*/
+
 .slick {
+  border: 3px solid dimgrey;
+  background-color: rgba(0,0,0,0.7);
   font-size: 30px;
   font-family: Verdana;
   padding-left: 20px;
   padding-right: 20px;
-  text-shadow: 2px 2px #778899;
+  /*text-shadow: 2px 2px #778899;*/
+  color: dimgrey;
 }
+
+/*Projects list */
 
 .pro {
   margin-left: 30%;
@@ -71,24 +108,35 @@ body {
   font-size: 60px;
   text-align: center;
   text-decoration: underline;
+  color: darkgrey;
+  text-shadow: 2px 2px rgb(253, 247, 248)
 }
+
 /* The bulk of the page*/
+
 .big {
   margin-top: 50px;
+  /*color: darkgrey;*/
+  text-shadow: 2px 2px rgb(253, 247, 248)
 }
+
+/*psudo code*/
 
 a:hover {
   font-family: cursive;
   color: white;
 }
 
+/*dad pic div*/
+
 .dad {
   padding-bottom: 50px;
-  margin-left: 30%;
 }
 
+/*used to center text under dad pic and actually centered the pic it self*/
+
 #center {
-  margin-left: 6%;
+  text-align: center;
 }
 
 a {
