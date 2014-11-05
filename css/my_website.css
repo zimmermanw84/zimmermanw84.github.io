@@ -1,0 +1,90 @@
+body {
+  /*background-image: ;*/
+  /*background-repeat: no-repeat;*/
+  /*background-attachment: fixed;*/
+  /*background-position: center;*/
+
+}
+
+* {
+  font-family: Impact;
+}
+
+#head {
+  font-family: Impact;
+  font-size: 60px;
+  text-decoration: underline;
+  text-align: center;
+  position:static;
+  margin-top: 20px;
+
+}
+
+.navbar {
+  position: fixed;
+  height: 40px;
+  width: 100%;
+  border: 1px solid black;
+  background-color: #008F75;
+  margin-top: -50px;
+  color: black;
+
+}
+
+.navb {
+  position: relative;
+  margin-top: 10px;
+  margin-left:10px;
+  display: inline-block;
+  padding-right: 70px;
+  float: left;
+}
+
+#hpic {
+  border:5px solid black;
+  background-color: black;
+}
+
+#ft {
+  text-align: center;
+  font-size: 10px;
+}
+
+.slick {
+  font-size: 30px;
+  font-family: Verdana;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.pro {
+  margin-left: 30%;
+  padding-bottom: 75px;
+  font-size: 40px;
+}
+
+/*Header of about me and Projects*/
+#top {
+  font-size: 60px;
+  text-align: center;
+  text-decoration: underline;
+}
+/* The bulk of the page*/
+.big {
+  margin-top: 50px;
+}
+
+a:hover {
+  font-family: cursive;
+  color: red;
+  background-color: black;
+}
+
+.dad {
+  padding-bottom: 50px;
+  margin-left: 30%;
+}
+
+#center {
+  margin-left: 6%;
+}
