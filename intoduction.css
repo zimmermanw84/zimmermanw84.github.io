@@ -20,6 +20,10 @@ body  {
 
 }*/
 
+* {
+  /*font-family: Impact;*/
+}
+
 /*Just my name*/
 
 #head {
@@ -28,7 +32,7 @@ body  {
   text-decoration: underline;
   text-align: center;
   position:static;
-  margin-top: 40px;
+  margin-top: 20px;
   color: dimgrey;
   text-shadow: 2px 2px rgb(253, 247, 248);
   border: 3px solid dimgrey;
@@ -50,7 +54,6 @@ body  {
   margin-top: -50px;
   color: black;
 
-
 }
 
 /*each button*/
@@ -63,8 +66,6 @@ body  {
   padding-right: 70px;
   float: left;
   text-shadow: 1px 1px #EEE;
-  color: black;
-  text-decoration: none;
 }
 
 /*all 4 pics need to break into own divs eventually*/
@@ -72,7 +73,6 @@ body  {
 #hpic {
   border:5px solid black;
   background-color: black;
-  margin-top: 30px;
 }
 
 /*footer*/
@@ -80,9 +80,6 @@ body  {
 #ft {
   text-align: center;
   font-size: 10px;
-  font-family: Verdana;
-  color: darkgrey;
-  text-shadow: 1px 1px #EEE;
 }
 
 /*about me div*/
@@ -96,13 +93,12 @@ body  {
   padding-right: 20px;
   /*text-shadow: 2px 2px #778899;*/
   color: dimgrey;
-  margin-top: 30px;
 }
 
 /*Projects list */
 
 .pro {
-  margin-top: 30px;
+  margin-left: 30%;
   padding-bottom: 75px;
   font-size: 40px;
   border: 3px solid dimgrey;
@@ -111,12 +107,12 @@ body  {
 
 /*Header of about me and Projects*/
 #top {
-  text-align: center;
+  /*border: 3px solid dimgrey;
+  background-color: rgba(0,0,0,0.7);*/
   font-size: 60px;
   text-decoration: underline;
   color: darkgrey;
-  text-shadow: 2px 2px rgb(253, 247, 248);
-  margin-top: 30px;
+  text-shadow: 2px 2px rgb(253, 247, 248)
 }
 
 /* The bulk of the page*/
@@ -138,30 +134,14 @@ a:hover {
 
 .dad {
   padding-bottom: 50px;
-  padding-top:50px;
 }
 
 /*used to center text under dad pic and actually centered the pic it self*/
 
 #center {
   text-align: center;
-  border: 3px solid dimgrey;
-  background-color: rgba(0,0,0,0.7);
-  width: 530px;
-  margin: auto;
-  margin-top: 30px;
-  font-size: 30px;
-  font-family: Verdana;
-  color: dimgrey;
 }
 
 a {
-  font-family: Verdana;
-  color: dimgrey;
-  text-decoration: none;
-}
-
-#p {
-  color: dimgrey;
-  text-shadow: 1px 1px #EEE;
+  color: black;
 }
