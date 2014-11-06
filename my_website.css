@@ -39,31 +39,26 @@ body  {
 
 }
 
-/*the bar it self*/
 
 .navbar {
   position: fixed;
-  height: 40px;
+  height: 6%;
   width: 100%;
   border: 1px solid black;
   background-color: rgba(255,255,255,0.5);
-  margin-top: -50px;
-  color: black;
-
+  margin-top: -4%;
 
 }
 
-/*each button*/
-
-.navb {
+.navb a {
   position: relative;
-  margin-top: 10px;
-  margin-left:10px;
+  margin-top: 1%;
+  margin-left: 1%;
   display: inline-block;
-  padding-right: 70px;
+  margin-right:10%;
   float: left;
   text-shadow: 1px 1px #EEE;
-  color: black;
+  color:black;
   text-decoration: none;
 }
 
@@ -114,7 +109,7 @@ body  {
   text-align: center;
   font-size: 60px;
   text-decoration: underline;
-  color: darkgrey;
+  color: dimgrey;
   text-shadow: 2px 2px rgb(253, 247, 248);
   margin-top: 30px;
 }
@@ -159,6 +154,7 @@ a {
   font-family: Verdana;
   color: dimgrey;
   text-decoration: none;
+  text-shadow: 2px 2px rgb(253, 247, 248);
 }
 
 #p {
