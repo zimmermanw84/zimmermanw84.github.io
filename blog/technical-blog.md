@@ -1,0 +1,12 @@
+## Technical Blog:
+#### Margin, Border, and Padding. What's the difference?
+
+The diagram below, I feel, gives a great visual representation of the differences between the three. But, let's start by explaining that all three are the blueprint of the object/element they describe. Giving values to these will do several things, but mainly, they will allow you to possition your element where ever you want it to be on the page and manipulate the content inside.
+
+Let's start with Margin. This is your main attribute that allows you to place your element on the page. Giving it a value of let's say, (margin-left: 50px;). That will move your object away from the left side of the screen by 50 pixels. Same can be said by all; left/right/top/bottom. If you give it a value of auto; (margin: auto;) It will give all attributes equal value.. Centering it in the page, in-between elements of course. Get it? Don't worry if you don't yet, once you start playing around with it, it starts making a lot more sense.. Now let's move on to border...
+
+Border is the space in between the margin and padding. Let's say you wanna make a button, you want to give it definition so it stands out from the rest of the page or container it's in. So a typical value for a border looks like this; (border: 2px solid black;). First giving it a size of 2 pixels, it can be whatever you'd like. The type of border is solid, can also be dashed and dotted(im sure there's more). And finally giving it a color of black, also can be any color you'd like. Adding a border is an awesome way of giving definition to your element, making it stand out from other thing on your page... And then there's the padding.
+
+Padding is the space between the actual content of your element and the border. Let's say you have a paragraph in your element and it's right up against your left border. You want to move it to the right without moving your border.. Then it's time to put some padding between them!.. So, the padding command would generally look the same as the margin command; (padding-left: 50px;). That would give you a 50 pixel padding between your border and the content in your element. Also, instead of using px(pixels), it's good to use percentages(10%). Just so it will adjust to the browser, 50px on my computer might not look like 50px on yours!
+
+Hope you learned something! Thanks for reading my post if you have any questions, comments, or concerns feel free to contact me!
