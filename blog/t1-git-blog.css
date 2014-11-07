@@ -120,3 +120,8 @@ li a {
   position: static;
   margin-top: 100%;
 }
+
+p a {
+  color:red;
+}
+
