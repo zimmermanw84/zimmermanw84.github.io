@@ -125,8 +125,9 @@ body  {
 /*psudo code*/
 
 a:hover {
-  font-family: cursive;
+  /*font-family: cursive;*/
   color: white;
+  text-shadow: 0 0 20px white;
 }
 
 /*dad pic div*/
