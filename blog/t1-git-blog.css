@@ -53,9 +53,10 @@ a:hover {
     background-color: rgba(0,0,0,0.7);
     border: 3px solid dimgrey;
     color: dimgrey;
-    text-shadow: 1px 1px rgb(253, 247, 248);
+    /*text-shadow: 1px 1px rgb(253, 247, 248);*/
     text-align: center;
     margin-top: 5%;
+    color: white;
 
  }
 
@@ -77,17 +78,19 @@ a:hover {
   float:left;
   width:  75%;
   /*height: 300px;*/
-  color: dimgrey;
-  text-shadow: 1px 1px rgb(253, 247, 248);
+  /*color: dimgrey;*/
+  /*text-shadow: 1px 1px rgb(253, 247, 248);*/
   border: 3px solid dimgrey;
   background-color: rgba(0,0,0,0.7);
   margin-top: 5%;
+  color: white;
+  font-size: 130%;
 }
 
 .blog-nav {
   float:right;
-  color: dimgrey;
-  text-shadow: 1px 1px rgb(253, 247, 248);
+  color: white;
+  /*text-shadow: 1px 1px rgb(253, 247, 248);*/
   border: 3px solid dimgrey;
   background-color: rgba(0,0,0,0.7);
   margin-top: 5%;
@@ -96,7 +99,7 @@ a:hover {
 
 li a {
  position: relative;
- color: dimgrey;
+ color: white;
 }
 
 #blog {
