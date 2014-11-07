@@ -123,10 +123,20 @@ li a {
   color: darkgrey;
   text-shadow: 1px 1px #EEE;
   position: static;
-  margin-top: 90%%;
+  margin-top: 100%%;
 
 }
 
 p a {
   color:red;
+}
+
+.pic {
+  /*border: 1px solid dimgrey;*/
+  position: relative;
+  display: inline-block;
+  margin-left:12%;
+  margin-bottom: 2%;
+  padding: auto;
+
 }
