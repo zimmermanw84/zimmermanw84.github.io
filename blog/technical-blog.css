@@ -40,7 +40,7 @@ a:hover {
   /*font-family: cursive;*/
   color: white;
   text-shadow: 0 0 20px white;
-  cursor: pointer;
+  cursor: progress;
 }
 
 /*Adjust height and width!*/
