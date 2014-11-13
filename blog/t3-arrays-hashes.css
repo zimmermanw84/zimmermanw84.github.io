@@ -133,6 +133,14 @@ p a {
   color:red;
 }
 
+h4 {
+  text-decoration: underline;
+}
+
+code {
+  display:block;
+}
+
 li {
   padding-bottom: 3%;
 }
