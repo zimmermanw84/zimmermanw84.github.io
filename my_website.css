@@ -28,13 +28,14 @@ body  {
   text-decoration: underline;
   text-align: center;
   position:static;
-  margin-top: 5%;
+  margin-top: 10%;
   color: white;
   text-shadow: 1px 1px rgb(253, 247, 248);
   border: 3px solid dimgrey;
   background-color: rgba(0,0,0,0.7);
   width: 40%;
-  margin: auto;
+  margin-left: 28%;
+  /*margin: auto;*/
 
 
 }
@@ -46,7 +47,7 @@ body  {
   width: 100%;
   border: 1px solid black;
   background-color: rgba(255,255,255,0.5);
-  margin-top: -4%;
+  margin-top: -10%;
 
 }
 
@@ -69,6 +70,7 @@ body  {
   background-color: black;
   margin-top: 4%;
   max-width: 100%;
+  display:inline-block;
   /*max-height: 100%;*/
 }
 
@@ -92,7 +94,7 @@ body  {
   padding-left: 20px;
   padding-right: 20px;
   /*text-shadow: 2px 2px #778899;*/
-  color: dimgrey;
+  color: white;
   margin-top: 30px;
 }
 
@@ -111,17 +113,15 @@ body  {
   text-align: center;
   font-size: 60px;
   text-decoration: underline;
-  color: dimgrey;
+  color: white;
   text-shadow: 2px 2px rgb(253, 247, 248);
   margin-top: 30px;
 }
 
-/* The bulk of the page*/
+/* All the top pics*/
 
 .big {
-  margin-top: 50px;
-  /*color: darkgrey;*/
-  text-shadow: 2px 2px rgb(253, 247, 248)
+  text-align: center;
 }
 
 /*psudo code*/
@@ -129,7 +129,7 @@ body  {
 a:hover {
   /*font-family: cursive;*/
   color: white;
-  text-shadow: 0 0 20px white;
+  text-shadow: 0 0 30px white;
   cursor: progress;
 }
 
@@ -154,19 +154,22 @@ a:hover {
   color: dimgrey;
 }
 
-a {
+li a {
   font-family: Verdana;
-  color: dimgrey;
+  color: red;
   text-decoration: none;
-  text-shadow: 2px 2px rgb(253, 247, 248);
+  /*text-shadow: 2px 2px rgb(253, 247, 248);*/
+  list-style: none;
 }
 
 #p {
-  color: dimgrey;
-  text-shadow: 1px 1px #EEE;
+  color: white;
+  /*text-shadow: 1px 1px #EEE;*/
 }
 
 img  {
-  max-width: 100%;
-  /*max-height: 100%;*/
+  /*max-width: 100%;*/
+  max-height: 100%;
 }
+
+
