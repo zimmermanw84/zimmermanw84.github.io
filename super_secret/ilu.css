@@ -1,0 +1,55 @@
+html {
+  background-image: url("IMG_0847.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*background-color: rgb(0,0,0,);*/
+}
+
+/*body {*/
+
+/*}*/
+
+
+.header {
+  text-align: center;
+  font-family: Cursive;
+}
+
+.side_pics {
+  text-align: right;
+  float: right;
+
+}
+
+img {
+  max-height: 10cm;
+  max-width: 10cm;
+  /*display: inline-block;*/
+}
+
+div div {
+ display: block;
+ padding-bottom: 5%;
+}
+
+#bpic {
+  padding-top: 2em;
+  padding-left: 1em;
+  /*background-color: rgba(0,0,0,0.7);*/
+}
+
+#pic {
+  padding-top: 2em;
+}
+
+.main {
+  background-color: rgba(0,0,0,0.7);
+  margin-right: 35%;
+  color: white;
+  margin-left: 1cm;
+  padding: 0.5cm;
+  font-size: 0.8cm;
+  /*opacity: 0.7;*/
+}
+
