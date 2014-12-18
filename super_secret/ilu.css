@@ -26,6 +26,7 @@ h1 {
 img {
   max-height: 10cm;
   max-width: 9cm;
+  border:2px solid black;
   /*display: inline-block;*/
 }
 
@@ -35,14 +36,15 @@ div div {
 }
 
 #bpic {
-  padding-top: 2em;
-  padding-left: 1em;
+  /*padding-top: 2em;*/
+  /*padding-left: 1em;*/
   /*background-color: rgba(0,0,0,0.7);*/
   /*text-align: center;*/
 }
 
 .footer {
   text-align: center;
+  margin-top: 2cm;
 }
 
 #pic {
