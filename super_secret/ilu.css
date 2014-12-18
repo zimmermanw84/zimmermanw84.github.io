@@ -68,3 +68,12 @@ div h4 {
   color: white;
 }
 
+@media only screen and (max-device-width: 600px) {
+
+  h1 {
+    font-size: 1.5cm;
+    text-decoration: underline;
+    color:white;
+  }
+
+}
