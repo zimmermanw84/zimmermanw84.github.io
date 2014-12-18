@@ -76,4 +76,10 @@ div h4 {
     color:white;
   }
 
+  img {
+  max-height: 10cm;
+  max-width: 8.5cm;
+
+}
+
 }
