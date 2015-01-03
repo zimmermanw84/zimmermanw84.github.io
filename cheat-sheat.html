@@ -4,15 +4,14 @@
 <html lang="en">
 <head>
 	<title>Ruby Enumerable Cheat Sheet</title>
-	<link type="text/css" rel="stylesheet" href="cheat-sheet.css">
-	<link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+	<link type="text/css" rel="stylesheet" href="stylesheets/blog_template_stylesheet.css">
 </head>
 
 <body>
 	<div id="container">
 		<div id="header">Ruby Enumerable Cheat Sheet</div>
-			<h2>Enumerables</h2>
-		<div id="meat">
+		<div id="body">
+			<h3>Enumerables</h3>
 
 			<p>Enumerable is a Ruby module. Enumerable provides a set of methods to a Class that includes it to be sorted, searched, and manipulated. For a class to be eligible to include Enumerable, the objects of the class (the things created by the class and that belong to the class) must be accessible via <inline-pre>#Each</inline-pre>. The string of characters, <inline-pre>"abcdef"</inline-pre>is not accessible with each:</p>
 			<pre>"abcdef".each #=> NoMethodError: undefined method 'each' for "abcdef":String</pre>
@@ -23,12 +22,10 @@
 			<p>The range of numbers 1-3 is accessible via each:</p>
 			<pre>(1..3).each {|i| print i} #=>1;2;3;</pre>
 
-			<p>Enumerables also allows the object of a class that includes it to be searched, sorted, and selected with methods like <inline-pre>:find</inline-pre>, <inline-pre>:sort</inline-pre>, and <inline-pre>:select</inline-pre>.</p>
+			<p>Enumerable also allows the object of a class that includes it to be searched, sorted, and selected with methods like <inline-pre>:find</inline-pre>, <inline-pre>:sort</inline-pre>, and <inline-pre>:select</inline-pre>.</p>
+			
+			<h3>Enumerable Methods</h3>
 
-		</div>
-
-			<h2>Enumerable Methods</h2>
-		<div id="meat">
 			<!-- each -->
 			<p><b>each</b> calls a block once for each element in a collection, passing each element to the block.</p>
 			<pre>(1..3).each {|i| p i} #=> 1; 2; 3;</pre>
@@ -58,18 +55,6 @@
 			<pre>(1..3).map { |x| x + 1 } #=> [2, 3, 4]</pre>
 
 		</div>
-	</div>
-
-	<div>
-		<ul>
-			<li><h4>Contact Us!</h4></li>
-			<li>
-				<a href="http://adellhk.github.io/" target="_blank"><img src="http://i1382.photobucket.com/albums/ah251/zimmermanw/24b0b63b-7178-43b7-be75-ec2a04e8d75a_zpsac7d6f71.jpg" border="0" alt=" photo 24b0b63b-7178-43b7-be75-ec2a04e8d75a_zpsac7d6f71.jpg"/></a>
-			</li>
-			<li>
-				<a href="http://zimmermanw84.github.io/my_website.html" target="_blank"><img src="http://i1382.photobucket.com/albums/ah251/zimmermanw/9aff3a71-9cf0-49e4-be90-0b601bebe8e3_zpsb7ae5d00.jpg" border="0" alt=" photo 9aff3a71-9cf0-49e4-be90-0b601bebe8e3_zpsb7ae5d00.jpg"/></a>
-			</li>
-		</ul>
 	</div>
 </body>
 </html>
