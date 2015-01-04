@@ -2,6 +2,9 @@
  font-family: 'Raleway', sans-serif;
 }
 
+body {
+  margin-left: 0;
+}
 
 #header {
   font-size: 5em;
@@ -11,6 +14,7 @@
 h2 {
   /*text-align: center;*/
   text-decoration: underline;
+  margin-left: 0.5em;
 }
 
 #meat {
@@ -19,6 +23,7 @@ h2 {
   padding-top: 0.5em;
   padding-left: 0.5em;
   padding-bottom: 0.5em;
+
 }
 
 pre {
@@ -56,4 +61,11 @@ h4 {
   float:left;
   font-size: 2em;
 
+}
+
+#container {
+    position: static;
+    width: 50em;
+    margin: auto;
+    /*border: 1px solid black;*/
 }
