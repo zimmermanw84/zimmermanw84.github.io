@@ -64,8 +64,8 @@ h4 {
 }
 
 #container {
-    position: static;
-    width: 50em;
-    margin: auto;
+    /*position: static;*/
+    /*width: 50em;*/
+    /*margin: auto;*/
     /*border: 1px solid black;*/
 }
