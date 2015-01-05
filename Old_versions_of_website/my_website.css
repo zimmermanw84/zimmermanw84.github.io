@@ -1,0 +1,175 @@
+
+body  {
+  background-image: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/05/city-wallpapers-9-610x381.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+/*space backround*/
+
+/*body {
+  background-image: url("http://i1382.photobucket.com/albums/ah251/zimmermanw/Hubble-Space-Wallpapers-01-300x225_zps23ad9976.jpg?1415160307645&1415160307885");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+
+}*/
+
+/*Just my name*/
+
+#head {
+
+  font-size: 200%;
+  text-decoration: underline;
+  text-align: center;
+  position:static;
+  margin-top: 10%;
+  color: white;
+  text-shadow: 1px 1px rgb(253, 247, 248);
+  border: 3px solid dimgrey;
+  background-color: rgba(0,0,0,0.7);
+  width: 40%;
+  margin-left: 28%;
+  /*margin: auto;*/
+
+
+}
+
+
+.navbar {
+  position: fixed;
+  height: 6%;
+  width: 100%;
+  border: 1px solid black;
+  background-color: rgba(255,255,255,0.5);
+  margin-top: -10%;
+
+}
+
+.navb a {
+  position: relative;
+  margin-top: 1%;
+  margin-left: 1%;
+  display: inline-block;
+  margin-right:10%;
+  float: left;
+  text-shadow: 1px 1px #EEE;
+  color:black;
+  text-decoration: none;
+}
+
+/*all 4 pics need to break into own divs eventually*/
+
+#hpic {
+  border:5px solid black;
+  background-color: black;
+  margin-top: 4%;
+  max-width: 100%;
+  display:inline-block;
+  /*max-height: 100%;*/
+}
+
+/*footer*/
+
+#ft {
+  text-align: center;
+  font-size: 10px;
+  font-family: Verdana;
+  color: darkgrey;
+  text-shadow: 1px 1px #EEE;
+}
+
+/*about me div*/
+
+.slick {
+  border: 3px solid dimgrey;
+  background-color: rgba(0,0,0,0.7);
+  font-size: 30px;
+  font-family: Verdana;
+  padding-left: 20px;
+  padding-right: 20px;
+  /*text-shadow: 2px 2px #778899;*/
+  color: white;
+  margin-top: 30px;
+}
+
+/*Projects list */
+
+.pro {
+  margin-top: 30px;
+  padding-bottom: 75px;
+  font-size: 40px;
+  border: 3px solid dimgrey;
+  background-color: rgba(0,0,0,0.7);
+}
+
+/*Header of about me and Projects*/
+#top {
+  text-align: center;
+  font-size: 60px;
+  text-decoration: underline;
+  color: white;
+  text-shadow: 2px 2px rgb(253, 247, 248);
+  margin-top: 30px;
+}
+
+/* All the top pics*/
+
+.big {
+  text-align: center;
+}
+
+/*psudo code*/
+
+a:hover {
+  /*font-family: cursive;*/
+  color: white;
+  text-shadow: 0 0 30px white;
+  cursor: progress;
+}
+
+/*dad pic div*/
+
+.dad {
+  padding-bottom: 50px;
+  padding-top:50px;
+}
+
+/*used to center text under dad pic and actually centered the pic it self*/
+
+#center {
+  text-align: center;
+  border: 3px solid dimgrey;
+  background-color: rgba(0,0,0,0.7);
+  width: 530px;
+  margin: auto;
+  margin-top: 30px;
+  font-size: 30px;
+  font-family: Verdana;
+  color: dimgrey;
+}
+
+li a {
+  font-family: Verdana;
+  color: red;
+  text-decoration: none;
+  /*text-shadow: 2px 2px rgb(253, 247, 248);*/
+  list-style: none;
+}
+
+#p {
+  color: white;
+  /*text-shadow: 1px 1px #EEE;*/
+}
+
+img  {
+  /*max-width: 100%;*/
+  max-height: 100%;
+}
+
+
