@@ -48,13 +48,26 @@ li {
   position: absolute;
 }
 
-body .intro {
+body #intro {
   margin-top: 7em;
   /*background-color: #6A6B7F;*/
   background-color: white;
   margin-left: 0em;
   max-width: 100%;
-  position: absolute;
+  position: relative;
+  padding-bottom: 1em;
+  padding-top:1em;
+}
+
+#pro {
+  background-color: #E8E8E1;
+  margin-left:0;
+  max-width: 100%;
+  /*position: static;*/
+  /*margin-top: 47em;*/
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  position: relative;
 }
 
 h2 {
@@ -69,15 +82,6 @@ p {
   text-align: center;
 }
 
-#pro {
-  background-color: #E8E8E1;
-  margin-left:0;
-  max-width: 100%;
-  position: static;
-  margin-top: 47em;
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
-}
 
 .footer {
   background-image: url("http://zimmermanw84.github.io/re_design/img/space_hat.jpg");
@@ -113,3 +117,9 @@ h4 {
   text-align: center;
   /*padding-bottom: 3em;*/
 }
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
