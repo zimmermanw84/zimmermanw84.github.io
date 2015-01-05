@@ -123,3 +123,6 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  opacity:0.5;
+}
