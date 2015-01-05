@@ -1,0 +1,115 @@
+.header {
+  /*Local link*/
+  background-image: url("file:///Users/walterzimmerman/Desktop/DBC/zimmermanw84.github.io/re_design/img/space_hat.jpg");
+  /*Live*/
+  /*background-image: url("http://zimmermanw84.github.io/re_design/img/space_eye.jpg");*/
+  background-attachment: fixed;
+  background-position: center;
+  max-width: 100%;
+  height: 15cm;
+  margin: 0;
+  /*margin-right: 0;*/
+}
+
+body {
+  background-color: black;
+  font-family: 'Raleway', sans-serif;
+  margin-left: 0;
+  margin-right: 0;
+  /*margin-top: 0;*/
+}
+
+#title {
+  color:white;
+  position: relative;
+  margin-top: 9em;
+  display: inline-block;
+  font-size: 4em;
+  margin-left: 0.5em;
+}
+
+.nav {
+  color: white;
+  list-style: none;
+  float: right;
+}
+
+li {
+  display: inline-block;
+  margin-right: 1cm;
+}
+
+#social {
+  margin-top: 15cm;
+}
+
+#links {
+  display: block;
+  position: absolute;
+}
+
+body .intro {
+  margin-top: 7em;
+  /*background-color: #6A6B7F;*/
+  background-color: white;
+  margin-left: 0em;
+  max-width: 100%;
+  position: absolute;
+}
+
+h2 {
+  font-size: 3em;
+  text-align: center;
+}
+
+p {
+  font-size: 2em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  text-align: center;
+}
+
+#pro {
+  background-color: #E8E8E1;
+  margin-left:0;
+  max-width: 100%;
+  position: static;
+  margin-top: 47em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+.footer {
+  background-image: url("file:///Users/walterzimmerman/Desktop/DBC/zimmermanw84.github.io/re_design/img/space_hat.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  max-width: 100%;
+  height: 10em;
+  margin-left: 0;
+  /*margin-top: 5em;*/
+}
+
+.end {
+  /*max-width: 100%;*/
+  /*width: 10em;
+  height: 5em;*/
+}
+
+#head_shot {
+  margin-top: 0em;
+  width: 10em;
+  height: 10em;
+  margin-left: 40%;
+  /*position: relative;*/
+  /*display: inline-block;*/
+  /*text-align: center;*/
+
+}
+
+h4 {
+  color: white;
+  /*display: inline-block;*/
+  /*float: right;*/
+  text-align: center;
+  /*padding-bottom: 3em;*/
+}
