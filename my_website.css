@@ -1,3 +1,7 @@
+.mobile_title {
+  display: none;
+}
+
 .header {
   /*Local link*/
   /*background-image: url("file:///Users/walterzimmerman/Desktop/DBC/zimmermanw84.github.io/re_design/img/space_hat.jpg");
@@ -125,4 +129,49 @@ a {
 
 a:hover {
   opacity:0.5;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+  #title {
+  color:white;
+  position: relative;
+  margin-top: 9em;
+  display: inline-block;
+  font-size: 4em;
+  margin-left: 0.5em;
+  display: none;
+  }
+
+
+  div ul li {
+    margin-right: 0em;
+    display: inline-block;
+  }
+
+  div ul {
+    margin-right: 1.5em;
+  }
+
+  #head_shot {
+  margin-top: 0em;
+  width: 5em;
+  height: 5em;
+  text-align: center;
+
+  }
+
+  .nav_moblie {
+  margin-right: 2em;
+  text-align: center;
+  }
+
+  .mobile_title {
+    font-size: 2em;
+    color: white;
+    position: absolute;
+    text-align: center;
+  }
+
 }
