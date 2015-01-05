@@ -1,8 +1,8 @@
 .header {
   /*Local link*/
-  background-image: url("file:///Users/walterzimmerman/Desktop/DBC/zimmermanw84.github.io/re_design/img/space_hat.jpg");
-  /*Live*/
-  /*background-image: url("http://zimmermanw84.github.io/re_design/img/space_eye.jpg");*/
+  /*background-image: url("file:///Users/walterzimmerman/Desktop/DBC/zimmermanw84.github.io/re_design/img/space_hat.jpg");
+  *//*Live*/
+  background-image: url("http://zimmermanw84.github.io/re_design/img/space_hat.jpg");
   background-attachment: fixed;
   background-position: center;
   max-width: 100%;
@@ -80,7 +80,7 @@ p {
 }
 
 .footer {
-  background-image: url("file:///Users/walterzimmerman/Desktop/DBC/zimmermanw84.github.io/re_design/img/space_hat.jpg");
+  background-image: url("http://zimmermanw84.github.io/re_design/img/space_hat.jpg");
   background-attachment: fixed;
   background-position: center;
   max-width: 100%;
