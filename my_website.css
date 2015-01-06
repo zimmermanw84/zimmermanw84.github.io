@@ -32,10 +32,17 @@ body {
   margin-left: 0.5em;
 }
 
-.nav {
+/*Social Nav top*/
+.nav_top {
   color: white;
   list-style: none;
   float: right;
+}
+
+.nav_bottom {
+  color: white;
+  list-style: none;
+  text-align: center;
 }
 
 li {
@@ -97,20 +104,14 @@ p {
   /*margin-top: 5em;*/
 }
 
-.end {
-  /*max-width: 100%;*/
-  /*width: 10em;
-  height: 5em;*/
-}
-
 #head_shot {
   margin-top: 0em;
   width: 10em;
   height: 10em;
-  margin-left: 40%;
+  /*margin-left: 40%;*/
   /*position: relative;*/
   /*display: inline-block;*/
-  /*text-align: center;*/
+  text-align: center;
 
 }
 
