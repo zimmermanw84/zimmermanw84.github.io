@@ -3,7 +3,6 @@
   /*background-image: url("file:///Users/walterzimmerman/Desktop/DBC/zimmermanw84.github.io/re_design/img/space_hat.jpg");
   *//*Live*/
   background-image: url("http://zimmermanw84.github.io/re_design/img/books1.jpg");
-  background-clip: url("");
   background-attachment: fixed;
   background-position: center;
   max-width: 100%;
@@ -54,4 +53,13 @@ li {
 #links {
   display: block;
   position: absolute;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity:0.5;
 }
