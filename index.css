@@ -108,7 +108,18 @@ div div h1 {
   color: black;
 }
 
+.pic {
+  margin-left: 27%;
+}
+
 @media only screen and (max-width: 767px) {
+
+  .pic {
+  margin-left: 15%;
+  /*height: 1em;*/
+  /*width: 1em;*/
+  display: none;
+}
 
   div h1 {
     display: none;
