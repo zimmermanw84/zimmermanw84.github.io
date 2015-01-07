@@ -63,3 +63,49 @@ a {
 a:hover {
   opacity:0.5;
 }
+
+h2 {
+  font-size: 3em;
+  text-align: center;
+}
+
+#intro {
+  margin-top: 7em;
+  /*background-color: #6A6B7F;*/
+  background-color: white;
+  margin-left: 0em;
+  max-width: 100%;
+  position: relative;
+  padding-bottom: 1em;
+  padding-top:1em;
+}
+
+.blog_header {
+  width: 80%;
+  height: 10em;
+  background-color: #E8E8E1;
+  border: 1px solid black;
+  margin-left: 9%;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  text-align: center;
+}
+
+div div h1 {
+  margin-top: 1.5em;
+
+}
+
+.blog_main {
+  display: none;
+  padding-left: 4em;
+  padding-right: 4em;
+
+
+}
+
+/*Blog Hyperlink*/
+
+.link_color {
+  color: black;
+}

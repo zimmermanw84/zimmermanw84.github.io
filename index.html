@@ -28,6 +28,53 @@
   <div class="header">
     <h1 id="title">Blog</h1>
   </div>
+  <div id="intro">
+
+        <!-- BLOG SEPORATER -->
+
+     <div class="blog_container">
+      <a class="link_color" href="javascript:void(0)">
+        <div class="blog_header">
+          <h1>Margin, Border, Padding: What's the difference?</h1>
+          <p>Thursday, November 7th, 2014</p>
+        </div>
+      </a>
+      <div class="blog_main">
+          <p>The diagrams below, I feel, gives a great visual representation of the differences between the three. But, let's start by explaining that all three are the blueprint of the object/element they describe. Giving values to these will do several things, but mainly, they will allow you to possition your element where ever you want it to be on the page and manipulate the content inside.
+         </p>
+
+         <p>Let's start with Margin. This is your main attribute that allows you to place your element on the page. Giving it a value of let's say, (margin-left: 50px;). That will move your object away from the left side of the screen by 50 pixels. Same can be said by all; left/right/top/bottom. If you give it a value of auto; (margin: auto;) It will give all attributes equal value.. Centering it in the page, in-between elements of course. Get it? Don't worry if you don't yet, once you start playing around with it, it starts making a lot more sense.. Now let's move on to border...</p>
+
+         <p>Border is the space in between the margin and padding. Let's say you wanna make a button, you want to give it definition so it stands out from the rest of the page or container it's in. So a typical value for a border looks like this; (border: 2px solid black;). First giving it a size of 2 pixels, it can be whatever you'd like. The type of border is solid, can also be dashed and dotted(im sure there's more). And finally giving it a color of black, also can be any color you'd like. Adding a border is an awesome way of giving definition to your element, making it stand out from other thing on your page... And then there's the padding.</p>
+
+         <p>Padding is the space between the actual content of your element and the border. Let's say you have a paragraph in your element and it's right up against your left border. You want to move it to the right without moving your border.. Then it's time to put some padding between them!.. So, the padding command would generally look the same as the margin command; (padding-left: 50px;). That would give you a 50 pixel padding between your border and the content in your element. Also, instead of using px(pixels), it's good to use percentages(10%). Just so it will adjust to the browser, 50px on my computer might not look like 50px on yours!</p>
+
+         <p>Hope you learned something! Thanks for reading my post if you have any questions, comments, or concerns feel free to contact me!</p>
+
+        </div>
+      </div>
+
+      <div class="blog_container">
+        <a class="link_color" href="javascript:void(0)">
+         <div class="blog_header">
+           <h1>Kitchen v. Table</h1>
+           <p>Wednesday, October 29th, 2014</p>
+         </div>
+        </a>
+        <div class="blog_main">
+          <p>Hey it's Walt again and this is my second blog entry. This blog I am going to be touching on Shereef's Fireside chat and verious veiws on DBC's learning experience, environment, and the culture. Also, my own personal expectations of the program.</p>
+          <p>I am lucky to have 2 sources that I can use to prepair myself for the Dev Bootcamp experience. The first one being the awesome vid with Shereef (Video <a href="http://vimeo.com/85001014">here</a>) and I have my wife, Chermaine Zimmerman. She graduated Dev Bootcamp a year ago and now is a Web Developer for Viggle in San Fransico. It's pretty awesome to have her with, both, first hand Dev bootcamp exp. and real world developer exp. to give me a wealth of perspective to draw from, in school and in life.</p>
+          <p>I think the DBC experience is going to be awesome. The way Shereef talks about how the "Kitchen v. Table" compairison is spot on, I believe. The American public, us/him/everyone, expects to get feed information and then boom... "I know everything", "I'am the consumer", "I paid for it", "That's what I ordered" a carrer in Web dev...-- That's the Table mind-set. That's not really the mind-set you should have comming into DBC. You should take more of the Kitchen mind-set. You put your apron on and get down to buisness! Take more personal resposibility for your education. It's really gonna take work but hey, If it was easy everyone would do it.</p>
+          <p>I almost feel the like the DBC culture was made specificly for me. I would say that im not a very academic person...(Laughing). I joined the US Army pretty much right out of High School and then took a job dealing poker. I never thought I would go back to school for various reasons. The main one being that how much time is invested and wasted. I don't feel like the current University system is taylored for optimal education (generally speaking), and specificly where that education can guarantee you a carrer that can support a family(although nothing in life can really guarantee you anything). I am all for DBC's total immursive process, where you are completely submerged into the lifestyle of a Web developer. You eat, breathe, and sleep coding. And, learn something functional, something you can actually use and support yourself and even a family with! What a concept... A carrer where you can suport yourself financially..</p>
+          <p>I will definiatly say that I am nervous about this experience. However, great changes in life have to be made outside your confort zone or no change will happen at all. A saying from my old profession (Poker Dealer)"No Gamble No Future!". You have to be able to take a chance in life to be successfull. And you can't let anxiety/nervousness get in the way of your future.</p>
+          <p>I will say, that after watching Shereef's vid, it has made me want to be a chef in the kitchen of programming. I am inspired to put my apron on and get to work!</p>
+          <p>Thanks for reading my blog!!</p>
+        </div>
+      </div>
+
+      <!-- BLOG SEPORATER -->
+
+  </div>
 
 
 
@@ -56,5 +103,17 @@
           <li><a href="mailto:zimmermanw@icloud.com">Contact Me!</a></li>
       </ul>
  -->
+<script type="text/javascript">
+$(document).ready(function() {
+  $(".blog_container").on("click", function(){
+    if ($(this).find(".blog_main").hasClass("active")){
+     $(this).find(".blog_main").removeClass("active").css("display", "none");
+    } else {
+     $(this).find(".blog_main").addClass("active").css("display", "block");
+    };
+  });
+});
+</script>
 </body>
+
 </html>
