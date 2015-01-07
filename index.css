@@ -39,6 +39,7 @@ body {
   color: white;
   list-style: none;
   text-align: center;
+  margin-top: 2em;
 }
 
 li {
@@ -101,7 +102,6 @@ div div h1 {
   padding-left: 4em;
   padding-right: 4em;
 
-
 }
 
 .link_color {
@@ -111,6 +111,29 @@ div div h1 {
 .pic {
   margin-left: 27%;
 }
+
+.footer {
+ width: 100%;
+ margin-left: 0;
+ background-color: black;
+ height: 20em;
+ margin-bottom: 0;
+ margin-top: -1em;
+ position: static;
+ color: white;
+}
+
+#head_shot {
+  margin-top: 0em;
+  width: 10em;
+  height: 10em;
+  margin-left: 43%;
+}
+
+h4 {
+  text-align: center;
+}
+
 
 @media only screen and (max-width: 767px) {
 
