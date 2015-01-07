@@ -1,0 +1,57 @@
+.header {
+  /*Local link*/
+  /*background-image: url("file:///Users/walterzimmerman/Desktop/DBC/zimmermanw84.github.io/re_design/img/space_hat.jpg");
+  *//*Live*/
+  background-image: url("http://zimmermanw84.github.io/re_design/img/books1.jpg");
+  background-clip: url("");
+  background-attachment: fixed;
+  background-position: center;
+  max-width: 100%;
+  height: 15cm;
+  margin: 0;
+  /*margin-right: 0;*/
+}
+
+body {
+  background-color: black;
+  font-family: 'Raleway', sans-serif;
+  margin-left: 0;
+  margin-right: 0;
+  /*margin-top: 0;*/
+}
+
+#title {
+  color:white;
+  position: relative;
+  margin-top: 9em;
+  display: inline-block;
+  font-size: 4em;
+  margin-left: 0.5em;
+}
+
+/*Social Nav top*/
+.nav_top {
+  color: white;
+  list-style: none;
+  float: right;
+}
+
+.nav_bottom {
+  color: white;
+  list-style: none;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  margin-right: 1cm;
+}
+
+#social {
+  margin-top: 15cm;
+}
+
+#links {
+  display: block;
+  position: absolute;
+}
