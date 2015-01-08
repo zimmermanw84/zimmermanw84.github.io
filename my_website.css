@@ -99,6 +99,8 @@ p {
   background-image: url("http://zimmermanw84.github.io/re_design/img/launch.jpg");
   background-attachment: fixed;
   background-position: center;
+  background-repeat: no-repeat;
+  background-size:100% auto;
   max-width: 100%;
   height: 25em;
   margin-left: 0;
