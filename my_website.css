@@ -2,7 +2,7 @@
   display: none;
 }
 
-.header {
+.top_pic {
   /*Local link*/
   /*background-image: url("file:///Users/walterzimmerman/Desktop/DBC/zimmermanw84.github.io/re_design/img/space_hat.jpg");
   *//*Live*/
@@ -26,7 +26,8 @@ body {
 #title {
   color:white;
   position: relative;
-  margin-top: 9em;
+  /*position: absolute;*/
+  margin-top: 0.2em;
   display: inline-block;
   font-size: 4em;
   margin-left: 0.5em;
@@ -49,10 +50,10 @@ li {
   display: inline-block;
   margin-right: 1cm;
 }
-
+/*
 #social {
   margin-top: 15cm;
-}
+}*/
 
 #links {
   display: block;
@@ -60,7 +61,7 @@ li {
 }
 
 body #intro {
-  margin-top: 7em;
+  margin-top: 0em;
   /*background-color: #6A6B7F;*/
   background-color: white;
   margin-left: 0em;
