@@ -9,14 +9,20 @@
   <link rel="icon"
       type="image/png"
       href="lockeSolo.png"/>
+  <script type="text/javascript" src="home.js"></script>
 </head>
 <body>
 
-  <div class="nav" id="links">
+  <div class="nav_container" id="links">
     <ul>
-      <li class="nav_moblie"><a href="http://zimmermanw84.github.io/my_website.html">| Home</a></li>
-      <li class="nav_moblie"><a href="http://zimmermanw84.github.io/my_website.html#intro">| Introduction</a></li>
-      <li class="nav_moblie"><a href="http://zimmermanw84.github.io/my_website.html#pro">| Projects</a></li>
+      <li><a href="javascript:void(0)">| Menu</a></li>
+    </ul>
+
+    <ul class="sneaky">
+      <li><a href="http://zimmermanw84.github.io/my_website.html">| Home</a></li>
+      <li><a href="http://zimmermanw84.github.io/my_website.html#intro">| Introduction</a></li>
+      <li><a href="http://zimmermanw84.github.io/my_website.html#pro">| Projects</a></li>
+      <li><a href="mailto:zimmermanw@icloud.com">| Contact</a></li>
     </ul>
   </div>
   <div class="top_pic">
@@ -371,18 +377,6 @@
         <h4>2015&copy;</h4>
       </div>
   </div>
-
-<script type="text/javascript">
-$(document).ready(function() {
-  $(".blog_container").on("click", function(){
-    if ($(this).find(".blog_main").hasClass("active")){
-     $(this).find(".blog_main").removeClass("active").css("display", "none");
-    } else {
-     $(this).find(".blog_main").addClass("active").css("display", "block");
-    };
-  });
-});
-</script>
 </body>
 
 </html>

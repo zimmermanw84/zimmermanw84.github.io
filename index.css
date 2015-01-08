@@ -11,6 +11,12 @@
   /*margin-right: 0;*/
 }
 
+/*Menu JS*/
+.sneaky {
+  display: none;
+}
+
+
 body {
   background-color: black;
   font-family: 'Raleway', sans-serif;
