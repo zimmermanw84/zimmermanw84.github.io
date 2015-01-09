@@ -14,14 +14,16 @@ $(document).ready(function() {
 
 
 // Blog Container Hide/Show
-  $(".blog_container").on("click", function(){
-      $(this).find(".blog_main").slideToggle().toggleClass("active");
-      if ($(this).find(".blog_main").hasClass("active")){
-        $(this).find(".blog_main").hasClass("active").slideToggle("slow");
-        $(this).find(".blog_main").removeClass("active").css("display", "none");
+
+
+  $(".blog_header").on("click", function(){
+      $(".blog_container").find(".blog_main").slideToggle().toggleClass("active");
+      if ($(".blog_container").find(".blog_main").hasClass("active")){
+        $(".blog_container").find(".blog_main").hasClass("active").slideToggle("slow");
+        $(".blog_container").find(".blog_main").removeClass("active").css("display", "none");
       }else{
-        $(this).find(".blog_main").addClass("active");
-        $(this).find(".blog_main").hasClass("active").css("display", "block");
+        $(".blog_container").find(".blog_main").addClass("active");
+        $(".blog_container").find(".blog_main").hasClass("active").css("display", "block");
     };
   });
 
