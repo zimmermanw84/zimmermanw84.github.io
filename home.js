@@ -3,11 +3,12 @@ $(document).ready(function() {
 
 // Simple nav bar top Hide/Show
   $(".nav_container").on( "click", function() {
-    if ($(this).find(".sneaky").hasClass(".show")){
-      $(this).find(".sneaky").removeClass(".show").css("display", "none");
-    }else{
-      $(this).find(".sneaky").addClass(".show").css("display","block");
-      $(this).find(".sneaky li").css({"display": "block", "padding-bottom": "1em" });
+    $(this).find(".sneaky").slideToggle().toggleClass(".show");
+      if ($(this).find(".sneaky").hasClass(".show")){
+        $(this).find(".sneaky").hasClass(".show").slideToggle("slow");
+        $(this).find(".sneaky").removeClass(".show").css("display", "none");
+      }else{
+        $(this).find(".sneaky").addClass(".show").css("display","block");
     };
   });
 
