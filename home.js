@@ -24,5 +24,8 @@ $(document).ready(function() {
         $(this).find(".blog_main").hasClass("active").css("display", "block");
     };
   });
+
+
+//      <----------- Bottom of JS DOC READY ----------->
 });
 
