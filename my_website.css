@@ -20,6 +20,11 @@
   display: none;
 }
 
+.sneaky li {
+  display: block;
+  padding-bottom: 1em;
+}
+
 /*------------------------*/
 body {
   background-color: black;
