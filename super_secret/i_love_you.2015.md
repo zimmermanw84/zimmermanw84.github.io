@@ -1,0 +1,3 @@
+###Baybay
+
+There are not accurate enough words to describe how I feel about you. [object Object] we have what everyone wishes they had in a relationship(Ok, I'll avoid the elitist route lol). As I look at you, right now actually, my heart melts. You are going to be the most amazing mother to young Bailey Z. I have know idea how I got so lucky to wake up next to you each morning. This year was a tough one, however it ends with great joy. A true test of a relationship is how we fair during the hard times, and I think it's safe to say that 'We're good'. We've been tested, dare I say battle hardened in the heart of the storm
